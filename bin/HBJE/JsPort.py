@@ -3,6 +3,7 @@ def P1(repeats):
     for i in range(1, repeats):
         print(str(i) + ". =^.^=")
 
+
 def P2():
     SecInMin = 60
     MinInHour = 60
@@ -35,8 +36,10 @@ def P2():
     print("There are " + str(HourInYear) + " hours in a year")
     print("I am aproximately " + str(((currentYear - 2014.8) * SecInYear)) + " seconds old")
 
+
 def OP1():
     print("Hello world")
+
 
 def P3():
     HighFives = 0

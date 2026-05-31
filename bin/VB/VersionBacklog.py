@@ -1,4 +1,6 @@
 import time
+
+
 def view_Log():
     print("Log v0 - Core")
     print("Available: v1, v1.5, v2")

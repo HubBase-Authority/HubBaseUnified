@@ -2,7 +2,7 @@ from bin.HB.HubBase import *
 from bin.VB.VersionBacklog import *
 from bin.HBJE.JsPort import *
 
-print("HubBaseLauncher v0.0.1.0.0 (.py - 0.0.2.0.02; .js - 0.0.1.0.00)")
+print("HubBaseLauncher v0.0.1.0.0 (.py - 0.0.2.0.05; .js - 0.0.1.0.00)")
 LaunchOptions = {1: "hb.py", 2: "jsport.js", 3: "vb.py"}
 LaunchOptionsL = ["hb", "jsport", "vb"]
 print(LaunchOptions)

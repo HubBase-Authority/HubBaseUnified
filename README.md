@@ -1,2 +1,2 @@
 # HubBaseUnified
-## The unified HubBase!
+## The unified HubBase for ~= a8.1 lineage!

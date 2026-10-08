@@ -1,7 +1,15 @@
-from HubBaseUnified.bin.HB.HubBase import *
-from HubBaseUnified.bin.VB.VersionBacklog import *
-from HubBaseUnified.bin.HBJE.JsPort import *
-from HubBaseUnified.bin.HBUT.Main import *
+try:
+    from HubBaseUnified.bin.HB.HubBase import *
+    from HubBaseUnified.bin.VB.VersionBacklog import *
+    from HubBaseUnified.bin.HBJE.JsPort import *
+    from HubBaseUnified.bin.HBUT.Main import *
+except ImportError:
+    try:
+        from bin.HB.HubBase import *
+        from bin.VB.VersionBacklog import *
+        from bin.HBJE.JsPort import *
+        from bin.HBUT.Main import *
+    except ImportError: raise IsADirectoryError("Self not found")
 
 print("HubBaseLauncher v0.0.1.0.0 (.py - 0.0.2.0.11; .js - 0.0.1.0.00)")
 LaunchOptions = {1: "hb", 2: "jsport", 3: "vb", 4: "hbut"}

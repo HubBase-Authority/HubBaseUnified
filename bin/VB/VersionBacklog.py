@@ -995,6 +995,23 @@ def view_log():
                             print("    - Fixed ProgramCycle")
                         else:
                             print("Such release does not exist or isn`t documented")
+                    elif D5 == "1.00":
+                        if D4 == "r":
+                            print("--- HubBase 0.0.2.1.00 (default, Aug 24 2026, 16:59:45) ---")
+                            print("Addition №9!")
+                            print("Changes:")
+                            print("    - Added Programm21: TicTacToe")
+                        else:
+                            print("Such release does not exist or isn`t documented")
+                    elif D5 == "1.01":
+                        if D4 == "r":
+                            print("--- HubBase 0.0.2.1.01 (default, Sep 11 2026, 19:15:51) ---")
+                            print("Bugfix №17!")
+                            print("Changes:")
+                            print("    - Updated Docs/")
+                            print("Warning: This is the last release in VersionBacklog.py and of ~= a8.1 release line.")
+                        else:
+                            print("Such release does not exist or isn`t documented")
                     else:
                         print("Such release does not exist or isn`t documented")
                 else:
